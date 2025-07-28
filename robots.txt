@@ -1,1 +1,6 @@
-Allow all web crawlers to access all contentUser-agent: *Disallow:Specify the location of the sitemapSitemap: https://www.google.com/search?q=https://posturepro.netlify.app/sitemap.xml
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Specify the location of the sitemap
+Sitemap: https://posturepro.netlify.app/sitemap.xml
